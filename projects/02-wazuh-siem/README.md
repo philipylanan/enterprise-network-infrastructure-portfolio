@@ -28,13 +28,13 @@ All environment-specific information has been sanitized for public documentation
 
 ## Environment
 
-### Wazuh Manager
+### **Wazuh Manager**
 
 The centralized Wazuh manager was deployed on:
 
-* Ubuntu Server 24.04
-* Wazuh version **4.14.5**
-* Virtual-machine deployment
+* **Operating system:** Ubuntu Server 24.04
+* **Wazuh version:** 4.14.5
+* **Deployment:** Virtual machine
 
 The manager was configured for centralized security-event collection and analysis.
 
@@ -81,13 +81,13 @@ One of the monitoring use cases involved auditing activity on a Windows file-ser
 
 The monitoring design included:
 
-* Windows file auditing
-* Security audit policy
-* SACL-based monitoring
-* File creation events
-* File modification events
-* File deletion events
-* Centralized event collection through Wazuh
+* **Windows file auditing**
+* **Security audit policy**
+* **SACL-based monitoring**
+* **File creation events**
+* **File modification events**
+* **File deletion events**
+* **Centralized event collection through Wazuh**
 
 A PowerShell-based operational mechanism was also used in the environment to support file-deletion auditing.
 
@@ -168,14 +168,14 @@ A key operational capability of the Wazuh deployment was the ability to investig
 
 The investigation process included:
 
-1. Identify the event source.
-2. Review the event timestamp.
-3. Examine the event type and severity.
-4. Identify the affected system or service.
-5. Review related events.
-6. Determine whether the event represents expected or unexpected activity.
-7. Correlate the event with network or system behavior.
-8. Document findings and required action.
+1. **Identify the event source.**
+2. **Review the event timestamp.**
+3. **Examine the event type and severity.**
+4. **Identify the affected system or service.**
+5. **Review related events.**
+6. **Determine whether the event represents expected or unexpected activity.**
+7. **Correlate the event with network or system behavior.**
+8. **Document findings and required action.**
 
 This approach helps prevent individual security events from being interpreted without sufficient operational context.
 
@@ -242,25 +242,25 @@ The objective was to confirm that monitoring changes did not unintentionally int
 
 ## Engineering Decisions
 
-### Centralized monitoring
+### **Centralized Monitoring**
 
 Centralizing security telemetry simplified event investigation and provided a common monitoring platform for multiple infrastructure systems.
 
-### Agent-based collection
+### **Agent-Based Collection**
 
 Wazuh agents were used where host-level visibility was required.
 
 This provided access to operating-system and security events that could not be obtained from network monitoring alone.
 
-### Structured event collection
+### **Structured Event Collection**
 
 Structured event data improved searchability and analysis and allowed different security telemetry sources to be investigated through a common platform.
 
-### Integration with IDS telemetry
+### **Integration With IDS Telemetry**
 
 Integrating Suricata with Wazuh connected network-level detection with host and infrastructure security monitoring.
 
-### Storage-aware monitoring design
+### **Storage-Aware Monitoring Design**
 
 Security monitoring was designed with storage consumption and retention requirements in mind.
 
@@ -268,23 +268,23 @@ Security monitoring was designed with storage consumption and retention requirem
 
 ## Lessons Learned
 
-### 1. Monitoring must be designed around actual event volume
+### **1. Monitoring Must Be Designed Around Actual Event Volume**
 
 Security platforms can generate large amounts of telemetry. Capacity planning should use observed event rates whenever possible.
 
-### 2. Centralized visibility improves investigation
+### **2. Centralized Visibility Improves Investigation**
 
 Collecting events from multiple infrastructure systems makes it easier to correlate activity and investigate incidents.
 
-### 3. Security events require operational context
+### **3. Security Events Require Operational Context**
 
 A single event should not automatically be treated as a confirmed security incident. Event source, timing, application behavior, and related activity should be considered.
 
-### 4. Retention is part of security monitoring
+### **4. Retention Is Part of Security Monitoring**
 
 Generating security events is only one part of the monitoring architecture. Storage, retention, rotation, and historical investigation must also be considered.
 
-### 5. Monitoring changes require validation
+### **5. Monitoring Changes Require Validation**
 
 Configuration changes should be followed by checks confirming that agents remain connected and expected events continue to arrive.
 
@@ -312,20 +312,20 @@ The technical concepts and engineering methodology are preserved while environme
 
 ## Technologies
 
-* Wazuh 4.14.5
-* Ubuntu Server 24.04
-* Windows Server
-* Windows Security Event Logging
-* NPS / RADIUS
-* Active Directory
-* File auditing
-* PowerShell
-* Suricata IDS
-* EVE JSON
-* Security-event analysis
-* Log retention
-* Storage capacity planning
-* Centralized security monitoring
+* **Wazuh 4.14.5**
+* **Ubuntu Server 24.04**
+* **Windows Server**
+* **Windows Security Event Logging**
+* **NPS / RADIUS**
+* **Active Directory**
+* **File auditing**
+* **PowerShell**
+* **Suricata IDS**
+* **EVE JSON**
+* **Security-event analysis**
+* **Log retention**
+* **Storage capacity planning**
+* **Centralized security monitoring**
 
 ---
 
@@ -335,14 +335,14 @@ The Wazuh implementation established a centralized security-monitoring capabilit
 
 The resulting monitoring architecture provided:
 
-* Centralized security-event collection
-* Windows infrastructure monitoring
-* File-activity monitoring
-* NPS/VPN authentication visibility
-* Active Directory security telemetry
-* Suricata IDS integration
-* Centralized dashboards and event investigation
-* Storage and retention planning
-* Operational validation of security telemetry
+* **Centralized security-event collection**
+* **Windows infrastructure monitoring**
+* **File-activity monitoring**
+* **NPS/VPN authentication visibility**
+* **Active Directory security telemetry**
+* **Suricata IDS integration**
+* **Centralized dashboards and event investigation**
+* **Storage and retention planning**
+* **Operational validation of security telemetry**
 
-The project demonstrates the practical engineering required to operate a centralized security-monitoring platform while balancing visibility, storage, retention, and operational reliability.
+The project demonstrates the practical engineering required to operate a centralized security-monitoring platform while balancing **visibility, storage, retention, and operational reliability**.
