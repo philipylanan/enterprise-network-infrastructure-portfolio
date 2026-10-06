@@ -1,8 +1,8 @@
-# Senior Network & Infrastructure Engineering Portfolio
+# Network & Infrastructure Engineering Portfolio
 
 Welcome to my professional technical portfolio.
 
-I am a **Senior Network & Infrastructure Engineer** with 15+ years of hands-on experience across enterprise networking, infrastructure, security, virtualization, Windows and Linux systems, monitoring, and technical troubleshooting.
+I am a **Network & Infrastructure Engineer** with 15+ years of hands-on experience across enterprise networking, infrastructure, security, virtualization, Windows and Linux systems, monitoring, and technical troubleshooting.
 
 This repository documents selected engineering projects, technical implementations, troubleshooting activities, architecture decisions, validation procedures, and lessons learned from real-world infrastructure environments.
 
