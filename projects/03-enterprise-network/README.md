@@ -399,3 +399,29 @@ The engineering work demonstrated practical capability in:
 * Operational documentation
 
 The project demonstrates an evidence-driven approach to maintaining reliable enterprise network infrastructure while incorporating security visibility and operational resilience into the network design.
+
+## Historical Project Implementations
+
+### 2017 — IP Addressing and Network Modernization
+
+The 2017 project involved reconstructing the existing IP addressing environment and progressing toward a structured private IPv4 addressing design. The documented work included addressing migration, Cisco switching infrastructure, Layer 3 routing, fiber uplinks, and connectivity requirements for healthcare applications.
+
+The historical environment included a Cisco Catalyst 4506-E core switch and Cisco Catalyst 3750X switching for Layer 2 uplinks. The 3750X was not a second core switch in this phase.
+
+Historical records document staged modernization activities and specific test results and limitations at the time of reporting. These findings are presented in their historical context and should not be interpreted as verification of the current production environment.
+
+### 2021 — Core Network Modernization and Redundancy
+
+On 17 June 2021, an additional Cisco Catalyst C9407R core switch was deployed alongside the existing Cisco Catalyst 4506-E platform.
+
+The documented design included HSRP gateway redundancy, inter-core EtherChannel, Rapid-PVST, and downstream aggregated links.
+
+The engineer confirmed that core failover testing was successful. Original test transcripts and measured recovery times were not available in the reviewed records, so the result is identified as engineer-confirmed rather than independently demonstrated by retained test logs.
+
+Configuration snapshots dated 19 July 2021 provide additional material for reviewing the implementation, but they do not establish the exact configuration of every device on the original deployment date.
+
+These two projects represent distinct phases of network modernization: the 2017 addressing and topology work, followed by the 2021 addition of core-switch redundancy.
+
+All published details must remain sanitized to protect production infrastructure, credentials, and sensitive network information.
+
+
