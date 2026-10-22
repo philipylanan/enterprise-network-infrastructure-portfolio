@@ -112,8 +112,6 @@ Operational considerations included:
 
 DHCP troubleshooting involved validating scope availability, lease allocation, network configuration, and client communication.
 
----
-
 ## NPS / RADIUS
 
 Windows Network Policy Server provided centralized network authentication services for supported access scenarios.
@@ -127,7 +125,20 @@ Security monitoring included Windows NPS authentication events such as:
 
 These events were collected through centralized monitoring to provide visibility into authentication activity.
 
----
+## 2022 Network Authentication and VPN Implementation
+
+In 2022, implemented and configured RADIUS authentication across network devices at Al Ameen Hospital and installed and configured VPN services on the Windows Server infrastructure.
+
+The implementation covered:
+
+- **NPS / RADIUS:** Configured RADIUS authentication across network devices to support centralized administrative authentication.
+- **RRAS / VPN:** Installed and configured Routing and Remote Access Service (RRAS) to provide VPN connectivity.
+- **Authentication and access:** Worked with Windows-based authentication and network access services.
+- **Operational validation:** Reviewed service configuration and connectivity as part of infrastructure troubleshooting and validation.
+
+This implementation demonstrates hands-on experience with Windows Server network authentication and VPN infrastructure.
+
+Production hostnames, IP addresses, credentials, RADIUS shared secrets, and private-key material are excluded from this public documentation.
 
 ## Windows File Services
 
@@ -145,8 +156,6 @@ Operational responsibilities included:
 * Troubleshooting file-access issues
 
 File access and security were considered together to ensure that users could access required resources while unauthorized activity could be detected.
-
----
 
 ## File Auditing
 
