@@ -81,22 +81,22 @@ This repository showcases selected engineering projects, infrastructure implemen
 
 The following directories contain project areas for technical documentation and portfolio development.
 
-| **Project**                          | **Focus**                                                           | **Repository**                                                                                                                                  |
-| ------------------------------------ | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Enterprise Network Infrastructure    | Switching, routing, VLANs, redundancy, and network topology         | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/03-enterprise-network)            |
-| Firewall and Security Infrastructure | Firewall administration, DMZ, and security policies                 | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/04-firewall-security)             |
-| Suricata IDS                         | Network intrusion detection, traffic visibility, and event analysis | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/01-suricata-ids)                  |
-| Wazuh SIEM                           | Centralized security monitoring and event collection                | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/02-wazuh-siem)                    |
-| Windows Infrastructure               | Windows Server, NPS/RADIUS, and infrastructure services             | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/05-windows-infrastructure)        |
-| File Auditing                        | File activity monitoring and security auditing                      | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/06-file-auditing)                 |
-| Hyper-V Infrastructure               | Virtualization and workload administration                          | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/07-hyper-v-infrastructure)        |
-| Hyper-V Replica                      | Virtual machine replication and recovery planning                   | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/08-hyper-v-replica)               |
-| VMware Infrastructure                | ESXi virtualization and workload administration                     | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/09-vmware-infrastructure)         |
-| Linux Services Infrastructure        | Linux systems and infrastructure services                           | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/10-linux-services-infrastructure) |
-| Proxmox and Ceph Infrastructure      | Virtualization and storage infrastructure                           | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/11-proxmox-ceph-infrastructure)   |
-| Mail Infrastructure                  | Mail services and supporting infrastructure                         | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/12-mail-infrastructure)           |
-| Asset Management                     | Infrastructure asset inventory and lifecycle management             | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/13-asset-management)              |
-| Proxy Infrastructure                 | Squid proxy deployment, access controls, and logging                | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/14-proxy-infrastructure)          |
+| **Project**                                               | **Focus**                                                                               | **Repository**                                                                                                                                  |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enterprise Network Infrastructure                         | Switching, routing, VLANs, redundancy, and network topology                             | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/03-enterprise-network)            |
+| Firewall and Security Infrastructure                      | Firewall administration, DMZ, and security policies                                     | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/04-firewall-security)             |
+| Suricata IDS                                              | Network intrusion detection, traffic visibility, and event analysis                     | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/01-suricata-ids)                  |
+| Wazuh SIEM                                                | Centralized security monitoring and event collection                                    | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/02-wazuh-siem)                    |
+| Windows Infrastructure                                    | Windows Server, NPS/RADIUS, and infrastructure services                                 | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/05-windows-infrastructure)        |
+| File Auditing                                             | File activity monitoring and security auditing                                          | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/06-file-auditing)                 |
+| Hyper-V Infrastructure                                    | Virtualization and workload administration                                              | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/07-hyper-v-infrastructure)        |
+| Hyper-V Replica                                           | Virtual machine replication and recovery planning                                       | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/08-hyper-v-replica)               |
+| VMware Infrastructure                                     | ESXi virtualization and workload administration                                         | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/09-vmware-infrastructure)         |
+| Linux Services Infrastructure                             | Linux systems and infrastructure services                                               | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/10-linux-services-infrastructure) |
+| Proxmox and Ceph Infrastructure                           | Virtualization and storage infrastructure                                               | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/11-proxmox-ceph-infrastructure)   |
+| Mail Infrastructure                                       | Mail services and supporting infrastructure                                             | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/12-mail-infrastructure)           |
+| Asset Management                                          | Infrastructure asset inventory and lifecycle management                                 | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/13-asset-management)              |
+| Proxy Infrastructure                                      | Squid proxy deployment, access controls, and logging                                    | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/14-proxy-infrastructure)          |
 | Domain Controller Restoration & Active Directory Recovery | Active Directory recovery, FSMO role management, DNS/DHCP, Windows Server modernization | [View project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/tree/main/projects/15-domain-controller-restoration) |
 
 *These links point to the repository's project directories. The documentation within each directory should be reviewed separately for completeness and publication readiness.*
@@ -141,7 +141,7 @@ Key areas included:
 
 Implemented VPN services using Windows Server Routing and Remote Access Service (RRAS).
 
-Subsequent monitoring work included Wazuh integration with the AmeenFS1 environment in 2026.
+Subsequent monitoring work included Wazuh integration with the Windows file-server environment in 2026.
 
 Key areas included:
 
@@ -183,6 +183,28 @@ Key areas included:
 Historical reporting dated June 19, 2017, recorded successful 10 Gb fiber testing at five of seven IDFs at that time.
 
 [View enterprise network project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/blob/main/projects/03-enterprise-network)
+
+### 6. Domain Controller Restoration & Active Directory Recovery — 2023–2025
+
+Led hands-on Active Directory recovery and domain controller modernization in a hospital IT environment following a storage-related failure affecting a Windows Server 2016 domain controller in August 2023.
+
+The recovery involved using a surviving legacy domain controller, performing Active Directory metadata cleanup, seizing FSMO roles when normal transfer was unavailable, and adjusting Cisco core-switch DHCP relay configuration to restore DHCP connectivity for affected clients.
+
+During subsequent infrastructure modernization in 2025, established a Windows Server 2016 domain controller, managed DNS and DHCP service responsibilities, backed up the legacy server, and rebuilt an existing physical server with Windows Server 2019 Standard as a replacement domain controller. All five FSMO roles were subsequently transferred to the replacement domain controller.
+
+**Key areas included:**
+
+- Active Directory recovery and metadata cleanup
+- FSMO role seizure and subsequent role transfers
+- Windows Server 2008, 2016, and 2019
+- DNS and DHCP service management
+- Cisco DHCP relay troubleshooting
+- Domain controller replacement and infrastructure modernization
+- Backup, recovery planning, and service-role documentation
+
+**Documented outcome:** The documented baseline placed all five FSMO roles on Windows Server 2019, with Active Directory Domain Services and DNS running on both Windows Server 2016 and Windows Server 2019. DHCP remained on Windows Server 2016.
+
+[View Domain Controller Restoration project](https://github.com/philipylanan/enterprise-network-infrastructure-portfolio/tree/main/projects/15-domain-controller-restoration)
 
 ---
 
